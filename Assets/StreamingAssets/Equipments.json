@@ -1,0 +1,85 @@
+{
+    "equips": [
+      {
+        "name": "FANUC KN-30ER",
+        "info": "FANUC KN-30ER\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+        "imagePath": "icons/icon1",
+        "proxyMesh": "Mesh/MachingingAndMilling/Chechuang_lod",
+        "mesh": "Mesh/MachingingAndMilling/Chechuang_lod",
+        "slot": ""
+      },
+      {
+        "name": "扫地机",
+        "info": "扫地机\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n",
+        "imagePath": "icons/icon2",
+        "proxyMesh": "Mesh/MachingingAndMilling/Jiqiren_lod",
+        "mesh": "Mesh/MachingingAndMilling/Jiqiren_lod",
+        "slot": ""
+      },
+      {
+        "name": "FANUC KN-30ER",
+        "info": "类别：aaa\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+        "imagePath": "icons/icon3",
+        "proxyMesh": "",
+        "mesh": "",
+        "slot": ""
+      },
+      {
+        "name": "叉车",
+        "info": "叉车\n类别：ccc\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+        "imagePath": "icons/icon4",
+        "proxyMesh": "",
+        "mesh": "",
+        "slot": ""
+      },
+      {
+        "name": "工人",
+        "info": "工人\n类别：机器人\n尺寸：3×3\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+        "imagePath": "icons/icon5",
+        "proxyMesh": "",
+        "mesh": "",
+        "slot": ""
+      },
+      {
+        "name": "FANUC KN-30ER",
+        "info": "类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+        "imagePath": "icons/icon1",
+        "proxyMesh": "",
+        "mesh": "",
+        "slot": ""
+      },
+      {
+        "name": "FANUC KN-30ER",
+        "info": "生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+        "imagePath": "icons/icon2",
+        "proxyMesh": "",
+        "mesh": "",
+        "slot": ""
+      },
+      {
+        "name": "FANUC KN-30ER",
+        "info": "类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+        "imagePath": "icons/icon3",
+        "proxyMesh": "",
+        "mesh": "",
+        "slot": ""
+      },
+      {
+        "name": "FANUC KN-30ER",
+        "info": "类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+        "imagePath": "icons/icon4",
+        "proxyMesh": "",
+        "mesh": "",
+        "slot": ""
+      },
+      {
+        "name": "FANUC KN-30ER",
+        "info": "类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+        "imagePath": "icons/icon5",
+        "proxyMesh": "",
+        "mesh": "",
+        "slot": ""
+      }
+    ]
+  }
+  

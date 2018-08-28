@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class FlowManager : MonoBehaviour {
+public class FlowManager : Singleton<FlowManager> {
     public Transform[] pages;
 
     void Start()
@@ -22,9 +22,7 @@ public class FlowManager : MonoBehaviour {
             {
                 pages[i].gameObject.SetActive(false);
             }
-        }
+        }        
     }
-
-
 
 }
