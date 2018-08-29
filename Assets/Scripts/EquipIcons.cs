@@ -13,7 +13,7 @@ public class Equipment
     public string imagePath;
     public string proxyMesh;
     public string mesh;
-    public string slot;
+    public int area;
 }
 
 [System.Serializable]
@@ -24,7 +24,6 @@ public class Equipments
 
 public class EquipIcons : MonoBehaviour
 {
-    private string serverRootAddress = "http://localhost:8080";
     public Transform container;
     public GameObject equipIconPrefab;
     private string EquiDataPath = "/StreamingAssets/Equipments.json";
@@ -32,7 +31,7 @@ public class EquipIcons : MonoBehaviour
     // Use this for initialization
     IEnumerator Start()
     {
-        UnityWebRequest www = UnityWebRequest.Get(serverRootAddress + EquiDataPath);
+        UnityWebRequest www = UnityWebRequest.Get(WebConfig.Instance.serverRootAddress + EquiDataPath);
         yield return www.SendWebRequest();
 
         string jsonstr = www.downloadHandler.text;
@@ -44,7 +43,7 @@ public class EquipIcons : MonoBehaviour
             tempEquip.transform.SetParent(container);
             Sprite icon = Resources.Load<Sprite>(i.imagePath);
             string name = i.name;
-            tempEquip.GetComponent<EquipIcon>().Setup(icon, name,i.info,i.proxyMesh,i.mesh);
+            tempEquip.GetComponent<EquipIcon>().Setup(icon, name, i.info, i.proxyMesh, i.mesh,i.area);
         }
 
 

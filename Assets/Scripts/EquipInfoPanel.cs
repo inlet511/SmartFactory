@@ -5,7 +5,7 @@ using UnityEngine;
 public class EquipInfoPanel : Singleton<EquipInfoPanel> {
     
 
-    public Transform equipInfoPanel;
+    public RectTransform equipInfoPanel;
 
 
     public void Show(string info)
@@ -25,6 +25,8 @@ public class EquipInfoPanel : Singleton<EquipInfoPanel> {
     /// </summary>
     void Update()
     {
-        equipInfoPanel.position = Input.mousePosition;
+
+        Vector3 clampedPosition = new Vector3( Input.mousePosition.x,  Mathf.Max(Input.mousePosition.y, equipInfoPanel.sizeDelta.y),0.0f);
+        equipInfoPanel.position = clampedPosition;
     }
 }

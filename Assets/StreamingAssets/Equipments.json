@@ -6,7 +6,7 @@
         "imagePath": "icons/icon1",
         "proxyMesh": "Mesh/MachingingAndMilling/Chechuang_lod",
         "mesh": "Mesh/MachingingAndMilling/Chechuang_lod",
-        "slot": ""
+        "area": 1
       },
       {
         "name": "扫地机",
@@ -14,7 +14,7 @@
         "imagePath": "icons/icon2",
         "proxyMesh": "Mesh/MachingingAndMilling/Jiqiren_lod",
         "mesh": "Mesh/MachingingAndMilling/Jiqiren_lod",
-        "slot": ""
+        "area": 2
       },
       {
         "name": "FANUC KN-30ER",
@@ -22,7 +22,7 @@
         "imagePath": "icons/icon3",
         "proxyMesh": "",
         "mesh": "",
-        "slot": ""
+        "area": ""
       },
       {
         "name": "叉车",
@@ -30,7 +30,7 @@
         "imagePath": "icons/icon4",
         "proxyMesh": "",
         "mesh": "",
-        "slot": ""
+        "area": ""
       },
       {
         "name": "工人",
@@ -38,7 +38,7 @@
         "imagePath": "icons/icon5",
         "proxyMesh": "",
         "mesh": "",
-        "slot": ""
+        "area": ""
       },
       {
         "name": "FANUC KN-30ER",
@@ -46,7 +46,7 @@
         "imagePath": "icons/icon1",
         "proxyMesh": "",
         "mesh": "",
-        "slot": ""
+        "area": ""
       },
       {
         "name": "FANUC KN-30ER",
@@ -54,7 +54,7 @@
         "imagePath": "icons/icon2",
         "proxyMesh": "",
         "mesh": "",
-        "slot": ""
+        "area": ""
       },
       {
         "name": "FANUC KN-30ER",
@@ -62,7 +62,7 @@
         "imagePath": "icons/icon3",
         "proxyMesh": "",
         "mesh": "",
-        "slot": ""
+        "area": ""
       },
       {
         "name": "FANUC KN-30ER",
@@ -70,7 +70,7 @@
         "imagePath": "icons/icon4",
         "proxyMesh": "",
         "mesh": "",
-        "slot": ""
+        "area": ""
       },
       {
         "name": "FANUC KN-30ER",
@@ -78,7 +78,7 @@
         "imagePath": "icons/icon5",
         "proxyMesh": "",
         "mesh": "",
-        "slot": ""
+        "area": ""
       }
     ]
   }
