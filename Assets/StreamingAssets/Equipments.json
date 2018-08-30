@@ -1,84 +1,92 @@
 {
     "equips": [
       {
-        "name": "FANUC KN-30ER",
-        "info": "FANUC KN-30ER\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+        "name": "AGV",
+        "info": "AGV\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
         "imagePath": "icons/icon1",
-        "proxyMesh": "Mesh/MachingingAndMilling/Chechuang_lod",
-        "mesh": "Mesh/MachingingAndMilling/Chechuang_lod",
-        "area": 1
-      },
-      {
-        "name": "扫地机",
-        "info": "扫地机\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n",
-        "imagePath": "icons/icon2",
-        "proxyMesh": "Mesh/MachingingAndMilling/Jiqiren_lod",
-        "mesh": "Mesh/MachingingAndMilling/Jiqiren_lod",
-        "area": 2
-      },
-      {
-        "name": "FANUC KN-30ER",
-        "info": "类别：aaa\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
-        "imagePath": "icons/icon3",
-        "proxyMesh": "",
-        "mesh": "",
-        "area": ""
+        "proxyMesh": "Mesh/Storage/AGV/AGV",
+        "mesh": "Mesh/Storage/AGV/AGV",
+        "area": 0
       },
       {
         "name": "叉车",
-        "info": "叉车\n类别：ccc\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
-        "imagePath": "icons/icon4",
-        "proxyMesh": "",
-        "mesh": "",
-        "area": ""
+        "info": "叉车\n类别：物流和存储\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n",
+        "imagePath": "icons/icon2",
+        "proxyMesh": "Mesh/Storage/chache/chache",
+        "mesh": "Mesh/Storage/chache/chache",
+        "area": 0
       },
       {
-        "name": "工人",
+        "name": "货架",
+        "info": "货架\n类别：aaa\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+        "imagePath": "icons/icon3",
+        "proxyMesh": "Mesh/Storage/huojia/huojia",
+        "mesh": "Mesh/Storage/huojia/huojia",
+        "area": 0
+      },
+      {
+        "name": "立体仓库",
+        "info": "立体仓库\n类别：ccc\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+        "imagePath": "icons/icon4",
+        "proxyMesh": "Mesh/Storage/LitiCangku/LitiCangku",
+        "mesh": "Mesh/Storage/LitiCangku/LitiCangku",
+        "area": 0
+      },
+      {
+        "name": "手推车",
         "info": "工人\n类别：机器人\n尺寸：3×3\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
         "imagePath": "icons/icon5",
-        "proxyMesh": "",
-        "mesh": "",
-        "area": ""
+        "proxyMesh": "Mesh/Storage/shoutuiche/shoutuiche",
+        "mesh": "Mesh/Storage/shoutuiche/shoutuiche",
+        "area": 0
       },
       {
-        "name": "FANUC KN-30ER",
-        "info": "类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+        "name": "车床",
+        "info": "车床\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
         "imagePath": "icons/icon1",
-        "proxyMesh": "",
-        "mesh": "",
-        "area": ""
+        "proxyMesh": "Mesh/MachingingAndMilling/Chechuang/Chechuang",
+        "mesh": "Mesh/MachingingAndMilling/Chechuang/Chechuang",
+        "area": 1
       },
       {
-        "name": "FANUC KN-30ER",
+        "name": "机器人",
         "info": "生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
         "imagePath": "icons/icon2",
-        "proxyMesh": "",
-        "mesh": "",
-        "area": ""
+        "proxyMesh": "Mesh/MachingingAndMilling/Jiqiren/Jiqiren",
+        "mesh": "Mesh/MachingingAndMilling/Jiqiren/Jiqiren",
+        "area": 1
       },
       {
-        "name": "FANUC KN-30ER",
-        "info": "类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+        "name": "比对仪",
+        "info": "比对仪\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
         "imagePath": "icons/icon3",
-        "proxyMesh": "",
-        "mesh": "",
-        "area": ""
+        "proxyMesh": "Mesh/Detecting/Biduiyi/Biduiyi",
+        "mesh": "Mesh/Detecting/Biduiyi/Biduiyi",
+        "area": 2
       },
       {
-        "name": "FANUC KN-30ER",
-        "info": "类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+        "name": "三坐标测量仪",
+        "info": "三坐标测量仪\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
         "imagePath": "icons/icon4",
-        "proxyMesh": "",
-        "mesh": "",
-        "area": ""
+        "proxyMesh": "Mesh/Detecting/sanzuobiaoceliangyi/sanzuobiaoceliangyi",
+        "mesh": "Mesh/Detecting/sanzuobiaoceliangyi/sanzuobiaoceliangyi",
+        "area": 2
       },
       {
-        "name": "FANUC KN-30ER",
-        "info": "类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+        "name": "螺钉拧紧机",
+        "info": "螺钉拧紧机\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
         "imagePath": "icons/icon5",
-        "proxyMesh": "",
-        "mesh": "",
-        "area": ""
+        "proxyMesh": "Mesh/Assembling/luodingningjinji_lod",
+        "mesh": "Mesh/Assembling/luodingningjinji_lod",
+        "area": 3
+      },
+      {
+        "name": "轴承压装机",
+        "info": "轴承压装机\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+        "imagePath": "icons/icon5",
+        "proxyMesh": "Mesh/Assembling/zhouchengyazhuangji_lod",
+        "mesh": "Mesh/Assembling/zhouchengyazhuangji_lod",
+        "area": 3
       }
     ]
   }

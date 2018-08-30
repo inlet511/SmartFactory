@@ -20,6 +20,7 @@ public class WebConfig : Singleton<WebConfig>
 #if UNITY_EDITOR
         //本地测试
         serverRootAddress = "http://localhost:8080";
+        print("InEditor");
 #endif
 
 #if UNITY_WEBGL && !UNITY_EDITOR

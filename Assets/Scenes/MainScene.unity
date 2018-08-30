@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -171,7 +171,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 2106e073e5674634fa3c668174d0b744, type: 2}
+  - {fileID: 2100000, guid: 89d05ba1789be374180bb6c9ee2a924c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3036,7 +3036,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ab14b912cbe80494787b23c4905c21e2, type: 2}
+  - {fileID: 2100000, guid: 0575af68b8741ba47a14a37058b01b32, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3247,7 +3247,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fd5b703a6abe4949acdcd39ba950ba7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PopUpInfo: {fileID: 1997691319}
 --- !u!4 &619521753
 Transform:
   m_ObjectHideFlags: 0
@@ -5508,7 +5507,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 4
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -5536,7 +5535,7 @@ MonoBehaviour:
     spaceCount: 0
     wordCount: 1
     linkCount: 0
-    lineCount: 1
+    lineCount: 2
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -6472,7 +6471,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: b7cf1f8ba6439d443b7d86b872c8ac90, type: 2}
+  - {fileID: 2100000, guid: 3721247629ac63748a73355bfe92b29a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8614,7 +8613,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 0b8a1e0c7d704e54da51475eb19f5a10, type: 2}
+  - {fileID: 2100000, guid: ce9f1837f21669e49871d62c7fa8c840, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9032,7 +9031,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1964602097}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a51ff6de3c007246b73f24e73d48240, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a2cdd194c68fc2498d15b04d9ff6a7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   serverRootAddress: 

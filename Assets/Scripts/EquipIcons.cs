@@ -32,6 +32,7 @@ public class EquipIcons : MonoBehaviour
     IEnumerator Start()
     {
         UnityWebRequest www = UnityWebRequest.Get(WebConfig.Instance.serverRootAddress + EquiDataPath);
+        print(WebConfig.Instance.serverRootAddress + EquiDataPath);
         yield return www.SendWebRequest();
 
         string jsonstr = www.downloadHandler.text;
