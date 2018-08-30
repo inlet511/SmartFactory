@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class FlowManager : Singleton<FlowManager> {
     public Transform[] pages;
+    public RatingTemplate rate;
 
     void Start()
     {
@@ -27,6 +28,8 @@ public class FlowManager : Singleton<FlowManager> {
 
     public void ExcutePlan()
     {
+        rate = Blueprint.Instance.CheckScore();
+        GoToPage(6);
         
     }
 

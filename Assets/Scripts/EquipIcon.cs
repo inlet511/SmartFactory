@@ -15,16 +15,19 @@ public class EquipIcon : MonoBehaviour
 
     private string cachedMeshPath;
 
+    private int cachedEquipEnumNo;
+
     private int cachedArea;
 
 
 
-    public void Setup(Sprite icon, string name, string info,string proxyMeshPath, string meshPath, int area)
+    public void Setup(Sprite icon, string name, string info,string proxyMeshPath, string meshPath, int equipEnumNo, int area)
     {
         //cache values from json to class fields
         cachedInfo = info;                
         cachedProxyMeshPath = proxyMeshPath;
         cachedMeshPath = meshPath;
+        cachedEquipEnumNo = equipEnumNo;
         cachedArea = area;
 
         //setup Visual stuff
@@ -68,6 +71,6 @@ public class EquipIcon : MonoBehaviour
 
     public void MouseDownButton(BaseEventData data)
     {
-        MeshDropper.Instance.StartTracing(cachedProxyMeshPath,cachedMeshPath,cachedArea);
+        MeshDropper.Instance.StartTracing(cachedProxyMeshPath,cachedMeshPath,cachedEquipEnumNo,cachedArea);
     }
 }

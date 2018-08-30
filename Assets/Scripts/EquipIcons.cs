@@ -13,6 +13,7 @@ public class Equipment
     public string imagePath;
     public string proxyMesh;
     public string mesh;
+    public int EquipEnumNo;
     public int area;
 }
 
@@ -28,7 +29,7 @@ public class EquipIcons : MonoBehaviour
     public GameObject equipIconPrefab;
     private string EquiDataPath = "/StreamingAssets/Equipments.json";
     public Equipments equipments = null;
-    // Use this for initialization
+
     IEnumerator Start()
     {
         UnityWebRequest www = UnityWebRequest.Get(WebConfig.Instance.serverRootAddress + EquiDataPath);
@@ -44,7 +45,7 @@ public class EquipIcons : MonoBehaviour
             tempEquip.transform.SetParent(container);
             Sprite icon = Resources.Load<Sprite>(i.imagePath);
             string name = i.name;
-            tempEquip.GetComponent<EquipIcon>().Setup(icon, name, i.info, i.proxyMesh, i.mesh,i.area);
+            tempEquip.GetComponent<EquipIcon>().Setup(icon, name, i.info, i.proxyMesh, i.mesh, i.EquipEnumNo, i.area);
         }
 
 

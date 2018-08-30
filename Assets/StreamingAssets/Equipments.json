@@ -1,101 +1,140 @@
 {
-    "equips": [
-      {
-        "name": "AGV",
-        "info": "AGV\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
-        "imagePath": "icons/AGV",
-        "proxyMesh": "Mesh/Storage/AGV/Prefab/AGV",
-        "mesh": "Mesh/Storage/AGV/Prefab/AGV",
-        "area": 0
-      },
-      {
-        "name": "叉车",
-        "info": "叉车\n类别：物流和存储\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n",
-        "imagePath": "icons/ChaChe",
-        "proxyMesh": "Mesh/Storage/chache/Prefab/chache",
-        "mesh": "Mesh/Storage/chache/Prefab/chache",
-        "area": 0
-      },
-      {
-        "name": "货架",
-        "info": "货架\n类别：aaa\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
-        "imagePath": "icons/HuoJia",
-        "proxyMesh": "Mesh/Storage/huojia/Prefab/huojia",
-        "mesh": "Mesh/Storage/huojia/Prefab/huojia",
-        "area": 0
-      },
-      {
-        "name": "立体仓库",
-        "info": "立体仓库\n类别：ccc\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
-        "imagePath": "icons/LiTiCangKu",
-        "proxyMesh": "Mesh/Storage/LitiCangku/Prefab/LitiCangku",
-        "mesh": "Mesh/Storage/LitiCangku/Prefab/LitiCangku",
-        "area": 0
-      },
-      {
-        "name": "手推车",
-        "info": "工人\n类别：机器人\n尺寸：3×3\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
-        "imagePath": "icons/ShouTuiChe",
-        "proxyMesh": "Mesh/Storage/shoutuiche/Prefab/shoutuiche",
-        "mesh": "Mesh/Storage/shoutuiche/Prefab/shoutuiche",
-        "area": 0
-      },
-      {
-        "name": "车床",
-        "info": "车床\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
-        "imagePath": "icons/CheChuang",
-        "proxyMesh": "Mesh/MachingingAndMilling/Chechuang/Prefab/Chechuang",
-        "mesh": "Mesh/MachingingAndMilling/Chechuang/Prefab/Chechuang",
-        "area": 1
-      },
-      {
-        "name": "机器人",
-        "info": "生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
-        "imagePath": "icons/JiQiRen",
-        "proxyMesh": "Mesh/MachingingAndMilling/Jiqiren/Prefab/Jiqiren",
-        "mesh": "Mesh/MachingingAndMilling/Jiqiren/Prefab/Jiqiren",
-        "area": 1
-      },
-      {
-        "name": "冼床",
-        "info": "生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
-        "imagePath": "icons/XianChuang",
-        "proxyMesh": "Mesh/MachingingAndMilling/Xichuang/Prefab/Xichuang",
-        "mesh": "Mesh/MachingingAndMilling/Xichuang/Prefab/Xichuang",
-        "area": 1
-      },
-      {
-        "name": "比对仪",
-        "info": "比对仪\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+  "equips": [
+    {
+      "name": "货架",
+      "info": "货架\n类别：aaa\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+      "imagePath": "icons/HuoJia",
+      "proxyMesh": "Mesh/Storage/huojia/Prefab/huojia",
+      "mesh": "Mesh/Storage/huojia/Prefab/huojia",
+      "EquipEnumNo": 0,
+      "area": 0
+    },
+    {
+      "name": "叉车",
+      "info": "叉车\n类别：物流和存储\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n",
+      "imagePath": "icons/ChaChe",
+      "proxyMesh": "Mesh/Storage/chache/Prefab/chache",
+      "mesh": "Mesh/Storage/chache/Prefab/chache",
+      "EquipEnumNo": 1,
+      "area": 0
+    },
+    {
+      "name": "立体仓库",
+      "info": "立体仓库\n类别：ccc\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+      "imagePath": "icons/LiTiCangKu",
+      "proxyMesh": "Mesh/Storage/LitiCangku/Prefab/LitiCangku",
+      "mesh": "Mesh/Storage/LitiCangku/Prefab/LitiCangku",
+      "EquipEnumNo": 2,
+      "area": 0
+    },
+    {
+      "name": "AGV",
+      "info": "AGV\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+      "imagePath": "icons/AGV",
+      "proxyMesh": "Mesh/Storage/AGV/Prefab/AGV",
+      "mesh": "Mesh/Storage/AGV/Prefab/AGV",
+      "EquipEnumNo": 3,
+      "area": 0
+    },
+    {
+      "name": "车床",
+      "info": "车床\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+      "imagePath": "icons/CheChuang",
+      "proxyMesh": "Mesh/MachingingAndMilling/Chechuang/Prefab/Chechuang",
+      "mesh": "Mesh/MachingingAndMilling/Chechuang/Prefab/Chechuang",
+      "EquipEnumNo": 4,
+      "area": 1
+    },
+    {
+      "name": "铣床",
+      "info": "生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+      "imagePath": "icons/XiChuang",
+      "proxyMesh": "Mesh/MachingingAndMilling/Xichuang/Prefab/Xichuang",
+      "mesh": "Mesh/MachingingAndMilling/Xichuang/Prefab/Xichuang",
+      "EquipEnumNo": 5,
+      "area": 1
+    },
+    {
+      "name": "机加工机器人",
+      "info": "生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+      "imagePath": "icons/JiQiRen",
+      "proxyMesh": "Mesh/MachingingAndMilling/Jiqiren/Prefab/Jiqiren",
+      "mesh": "Mesh/MachingingAndMilling/Jiqiren/Prefab/Jiqiren",
+      "EquipEnumNo": 6,
+      "area": 1
+    },
+    {
+      "name": "质检工业机器人",
+      "info": "生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+      "imagePath": "icons/ZhiJianGongYeJiQiRen",
+      "proxyMesh": "Mesh/Detecting/ZhiJianJiQiRen/Prefab/jiqiren_rjxz",
+      "mesh": "Mesh/Detecting/ZhiJianJiQiRen/Prefab/jiqiren_rjxz",
+      "EquipEnumNo": 7,
+      "area": 2
+    },
+    {
+      "name": "比对仪",
+      "info": "比对仪\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+      "imagePath": "icons/BiDuiYi",
+      "proxyMesh": "Mesh/Detecting/Biduiyi/Prefab/Biduiyi",
+      "mesh": "Mesh/Detecting/Biduiyi/Prefab/Biduiyi",
+      "EquipEnumNo": 8,
+      "area": 2
+    },
+    {
+      "name": "手工量具",
+      "info": "手工量具\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
+      "imagePath": "icons/BiDuiYi",
+      "proxyMesh": "",
+      "mesh": "",
+      "EquipEnumNo": 9,
+      "area": 2
+    },
+    {
+        "name": "装配设备",
+        "info": "装配设备\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
         "imagePath": "icons/BiDuiYi",
-        "proxyMesh": "Mesh/Detecting/Biduiyi/Prefab/Biduiyi",
-        "mesh": "Mesh/Detecting/Biduiyi/Prefab/Biduiyi",
-        "area": 2
-      },
-      {
-        "name": "三坐标测量仪",
-        "info": "三坐标测量仪\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
-        "imagePath": "icons/SanZuoBiaoCeLiangYi",
-        "proxyMesh": "Mesh/Detecting/sanzuobiaoceliangyi/Prefab/sanzuobiaoceliangyi",
-        "mesh": "Mesh/Detecting/sanzuobiaoceliangyi/Prefab/sanzuobiaoceliangyi",
-        "area": 2
-      },
-      {
-        "name": "螺钉拧紧机",
-        "info": "螺钉拧紧机\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
-        "imagePath": "icons/LoDingNingJinJi",
-        "proxyMesh": "Mesh/Assembling/luodingningjinji_lod",
-        "mesh": "Mesh/Assembling/luodingningjinji_lod",
+        "proxyMesh": "",
+        "mesh": "",
+        "EquipEnumNo": 10,
         "area": 3
-      },
-      {
-        "name": "轴承压装机",
-        "info": "轴承压装机\n类别：机器人\n尺寸：3×3\n初期投入成本：RMB 400,000.00\n运行成本：RMB 1,500.00/小时\n生产效率：2,400/小时\n故障间隔时间：800小时\n备注：使用该设备必须配备工程师",
-        "imagePath": "icons/ZhouChengYaZhuangJi",
-        "proxyMesh": "Mesh/Assembling/zhouchengyazhuangji_lod",
-        "mesh": "Mesh/Assembling/zhouchengyazhuangji_lod",
+    },
+    {
+        "name": "工人",
+        "info": "工人\n可用于任意环节的普通工人",
+        "imagePath": "icons/GongRen",
+        "proxyMesh": "Mesh/Characters/GongRen/Prefab/worker",
+        "mesh": "Mesh/Characters/GongRen/Prefab/worker",
+        "EquipEnumNo": 11,
+        "area": -1
+    },
+    {
+        "name": "工程师",
+        "info": "工程师\n可用于任意环节的工程师",
+        "imagePath": "icons/GongChengShi",
+        "proxyMesh": "Mesh/Characters/GongChengShi/Prefab/engineer",
+        "mesh": "Mesh/Characters/GongChengShi/Prefab/engineer",
+        "EquipEnumNo": 12,
+        "area": -1
+    },
+    {
+        "name": "新手装配工",
+        "info": "新手装配工\n可用于装配环节",
+        "imagePath": "icons/XinShouZHuangPeiGong",
+        "proxyMesh": "Mesh/Characters/XinShouZHuangPeiGong/Prefab/rookie",
+        "mesh": "Mesh/Characters/XinShouZHuangPeiGong/Prefab/rookie",
+        "EquipEnumNo": 13,
         "area": 3
-      }
-    ]
-  }
-  
+    },
+    {
+        "name": "熟练装配工",
+        "info": "熟练装配工\n可用于装配环节",
+        "imagePath": "icons/ShuLianZhuangPeiGong",
+        "proxyMesh": "Mesh/Characters/ShuLianZhuangPeiGong/Prefab/ganker",
+        "mesh": "Mesh/Characters/ShuLianZhuangPeiGong/Prefab/ganker",
+        "EquipEnumNo": 14,
+        "area": 3
+    }    
+
+  ]
+}
