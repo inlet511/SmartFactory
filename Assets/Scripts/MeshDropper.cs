@@ -8,7 +8,7 @@ public class MeshDropper : Singleton<MeshDropper>
     //storage,milling, detecting, assembly
     public Transform[] areas;
 
-    public Transform groundPlane;
+    public Transform ObjectContainer;
     private GameObject currentProxyMesh;
     private GameObject currentMesh;
 
@@ -65,7 +65,7 @@ public class MeshDropper : Singleton<MeshDropper>
                 {
                     //在正确的区域
                     GameObject newAddedMesh = (GameObject)Instantiate(Resources.Load(cachedMeshPath, typeof(GameObject)), hit.point, Quaternion.identity);
-                    newAddedMesh.transform.SetParent(groundPlane);
+                    newAddedMesh.transform.SetParent(ObjectContainer);
                     StopTracing();
                 }
                 else{
