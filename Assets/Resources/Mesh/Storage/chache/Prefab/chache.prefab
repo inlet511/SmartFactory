@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4278686539177820}
   - component: {fileID: 33423270618945834}
   - component: {fileID: 23845532194169206}
+  - component: {fileID: 114122225329097854}
   m_Layer: 0
   m_Name: chache
   m_TagString: Untagged
@@ -35,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1202831705684096}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 425.5768, y: 121.889305, z: -7.8260207}
+  m_LocalPosition: {x: -0.008517265, y: -3.1161394, z: 0.2606969}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,3 +84,16 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1202831705684096}
   m_Mesh: {fileID: 4300000, guid: d2eb1573796143244a33f2b2ff3c77ec, type: 3}
+--- !u!114 &114122225329097854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1202831705684096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4eab16b0b6cd554fb4f877141557d35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  rotateTime: 2

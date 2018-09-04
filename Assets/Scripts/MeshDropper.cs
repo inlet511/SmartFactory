@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class MeshDropper : Singleton<MeshDropper>
 {
@@ -27,6 +28,8 @@ public class MeshDropper : Singleton<MeshDropper>
     RaycastHit hit;
     Ray ray;
 
+    private List<GameObject> allObjects;
+
     public void StartTracing(string proxyMesh, string mesh, int equipEnumNo, int area)
     {
         if (currentProxyMesh != null)
@@ -49,6 +52,7 @@ public class MeshDropper : Singleton<MeshDropper>
     void Start()
     {
         mainCamera = Camera.main;
+        allObjects = new List<GameObject>();
     }
 
     void Update()
@@ -66,9 +70,15 @@ public class MeshDropper : Singleton<MeshDropper>
                 // 人物可以放置于任何场景
                 if (cachedArea == -1 || (FindElementIndex(ref areas, hit.collider.transform) == cachedArea))
                 {
+
+                    if(cachedArea == -1)
+                    {
+                        cachedArea = FindElementIndex(ref areas, hit.collider.transform);
+                    }   
                     //在正确的区域
                     GameObject newAddedMesh = (GameObject)Instantiate(Resources.Load(cachedMeshPath, typeof(GameObject)), hit.point, Quaternion.identity);
                     newAddedMesh.transform.SetParent(ObjectContainer);
+                    allObjects.Add(newAddedMesh);
                     switch (cachedArea)
                     {
                         case 0:
@@ -89,7 +99,7 @@ public class MeshDropper : Singleton<MeshDropper>
                 }
                 else
                 {
-                    PopUpInfoManager.Instance.ShowInfo();
+                    PopUpInfoManager.Instance.ShowInfo("不能放在这个区域!");
                 }
 
             }
@@ -111,5 +121,36 @@ public class MeshDropper : Singleton<MeshDropper>
         }
 
         return -1;
+    }
+
+    public void ClearAllMeshes()
+    {
+        var objectCount = ObjectContainer.childCount;
+        for(int i = objectCount-1; i>=0;i--)
+        {
+            DestroyImmediate(ObjectContainer.GetChild(i).gameObject);            
+        }
+    }
+
+    public void StartAnimation()
+    {
+        foreach(var item in allObjects)
+        {
+            try{
+                item.GetComponent<Animation>().Play();
+                
+
+            }catch(Exception e)
+            {
+                print(e);
+            }
+
+            try{
+                item.GetComponent<MoveComponent>().StartMove();
+            }catch(Exception e)
+            {
+                print(e);
+            }
+        }
     }
 }
