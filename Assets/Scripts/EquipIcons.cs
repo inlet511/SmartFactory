@@ -27,16 +27,13 @@ public class EquipIcons : MonoBehaviour
 {
     public Transform container;
     public GameObject equipIconPrefab;
-    private string EquiDataPath = "/StreamingAssets/Equipments.json";
+    private string EquiDataPath = "Equipments.json";
     public Equipments equipments = null;
 
-    IEnumerator Start()
+    void Start()
     {
-        UnityWebRequest www = UnityWebRequest.Get(WebConfig.Instance.serverRootAddress + EquiDataPath);
+        string jsonstr = File.ReadAllText(Path.Combine(Application.streamingAssetsPath,EquiDataPath));
 
-        yield return www.SendWebRequest();
-
-        string jsonstr = www.downloadHandler.text;
         equipments = JsonUtility.FromJson<Equipments>(jsonstr);
 
         foreach (var i in equipments.equips)
