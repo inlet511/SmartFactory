@@ -88,6 +88,16 @@ public class FlowManager : Singleton<FlowManager>
             PopUpInfoManager.Instance.ShowInfo("没有装配完成");
             return;
         }
+
+        //如果处于删除状态，先还原
+        if(MeshDropper.Instance.currentOpState == OperationState.delete)
+        {
+            MeshDropper.Instance.SwitchDeleteMode();
+        }
+
+        MeshDropper.Instance.deleteButton.enabled = false;
+
+
         //播放一些动画
         MeshDropper.Instance.StartAnimation();
         MainCam.enabled = false;
@@ -96,7 +106,7 @@ public class FlowManager : Singleton<FlowManager>
     }
 
     public void ShowResult()
-    {
+    {        
         GoToPage(3);
         MainCam.enabled = true;
         SimulateCam.enabled = false;
@@ -105,6 +115,9 @@ public class FlowManager : Singleton<FlowManager>
 
     public void NextPhase()
     {
+
+        MeshDropper.Instance.deleteButton.enabled = true;
+
         //清理所有场景中的模型
         MeshDropper.Instance.ClearAllMeshes();
 

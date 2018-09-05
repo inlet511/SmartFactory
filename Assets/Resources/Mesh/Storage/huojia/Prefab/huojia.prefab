@@ -21,7 +21,10 @@ GameObject:
   - component: {fileID: 4039562662047684}
   - component: {fileID: 33383356295620612}
   - component: {fileID: 23434087034727176}
-  m_Layer: 0
+  - component: {fileID: 114475578499122066}
+  - component: {fileID: 65952559554747236}
+  - component: {fileID: 114524369843340800}
+  m_Layer: 11
   m_Name: huojia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1589949551047886}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 427.51138, y: 122.19271, z: -8.889329}
+  m_LocalPosition: {x: 432.61, y: 119.59, z: -6.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,3 +86,44 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1589949551047886}
   m_Mesh: {fileID: 4300000, guid: 1b26c1a24d5e7554dab22f0853099798, type: 3}
+--- !u!65 &65952559554747236
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1589949551047886}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.94380045, y: 2.253531, z: 2.1726205}
+  m_Center: {x: -0.011424378, y: 1.135575, z: 0}
+--- !u!114 &114475578499122066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1589949551047886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0, g: 0.43921572, b: 0.75294125, a: 1}
+  outlineWidth: 5
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!114 &114524369843340800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1589949551047886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7522b1db93c8d0f41940109d15f3f883, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myArea: 0

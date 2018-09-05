@@ -21,7 +21,10 @@ GameObject:
   - component: {fileID: 4304198386958502}
   - component: {fileID: 33759962439307608}
   - component: {fileID: 23136947766430390}
-  m_Layer: 0
+  - component: {fileID: 114690359211939826}
+  - component: {fileID: 65455815361170788}
+  - component: {fileID: 114097462850838374}
+  m_Layer: 11
   m_Name: Chechuang
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1164730143749654}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 420.70444, y: 120.787056, z: -6.8705063}
+  m_LocalPosition: {x: 421.073, y: 119.194, z: -6.8705063}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,3 +87,44 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1164730143749654}
   m_Mesh: {fileID: 4300002, guid: f9db6a552d79d784aab9a0d6379283c8, type: 3}
+--- !u!65 &65455815361170788
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1164730143749654}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2973667, y: 1.615144, z: 2.2843256}
+  m_Center: {x: 0, y: 0.8092251, z: 0}
+--- !u!114 &114097462850838374
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1164730143749654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7522b1db93c8d0f41940109d15f3f883, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myArea: 0
+--- !u!114 &114690359211939826
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1164730143749654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0, g: 0.43921572, b: 0.75294125, a: 1}
+  outlineWidth: 5
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []

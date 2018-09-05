@@ -21,7 +21,10 @@ GameObject:
   - component: {fileID: 4465470454469598}
   - component: {fileID: 33649258317296762}
   - component: {fileID: 23972957299860130}
-  m_Layer: 0
+  - component: {fileID: 114967168925314172}
+  - component: {fileID: 136136464265508164}
+  - component: {fileID: 114684488668520162}
+  m_Layer: 11
   m_Name: ganker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1197187697530640}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 424.03537, y: 119.05499, z: -3.8949862}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,3 +86,45 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1197187697530640}
   m_Mesh: {fileID: 4300000, guid: 177a67a21762b3340af7c236926fe3e3, type: 3}
+--- !u!114 &114684488668520162
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197187697530640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7522b1db93c8d0f41940109d15f3f883, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myArea: 0
+--- !u!114 &114967168925314172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197187697530640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0, g: 0.43921572, b: 0.75294125, a: 1}
+  outlineWidth: 5
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!136 &136136464265508164
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197187697530640}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.330083
+  m_Height: 1.8378124
+  m_Direction: 1
+  m_Center: {x: -0.039529428, y: 0.9122461, z: 0.050410584}

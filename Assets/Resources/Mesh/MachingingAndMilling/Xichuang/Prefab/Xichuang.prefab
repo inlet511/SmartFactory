@@ -21,7 +21,10 @@ GameObject:
   - component: {fileID: 4314812297388686}
   - component: {fileID: 33192645593758686}
   - component: {fileID: 23363034949256434}
-  m_Layer: 0
+  - component: {fileID: 114388753989361386}
+  - component: {fileID: 65759260782307190}
+  - component: {fileID: 114916307931652062}
+  m_Layer: 11
   m_Name: Xichuang
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,3 +87,44 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1432967248260786}
   m_Mesh: {fileID: 4300002, guid: 45ac4d1d3edff124f9d111179bcb4a17, type: 3}
+--- !u!65 &65759260782307190
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1432967248260786}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.8354504, y: 2.6349168, z: 2.5754008}
+  m_Center: {x: 0, y: 1.3013422, z: -0.000487566}
+--- !u!114 &114388753989361386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1432967248260786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0, g: 0.43921572, b: 0.75294125, a: 1}
+  outlineWidth: 5
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!114 &114916307931652062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1432967248260786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7522b1db93c8d0f41940109d15f3f883, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myArea: 0

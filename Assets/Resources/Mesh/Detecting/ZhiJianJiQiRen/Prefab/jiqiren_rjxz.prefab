@@ -22,7 +22,10 @@ GameObject:
   - component: {fileID: 33424317669137602}
   - component: {fileID: 23337239970992344}
   - component: {fileID: 111082591067919232}
-  m_Layer: 0
+  - component: {fileID: 114882382633269670}
+  - component: {fileID: 65764161904711952}
+  - component: {fileID: 114586098429406388}
+  m_Layer: 11
   m_Name: jiqiren_rjxz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1828871017524828}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.973267, y: 0.089643, z: -9.107736}
+  m_LocalPosition: {x: 423.98727, y: 119.05499, z: -6.511455}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,6 +87,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1828871017524828}
   m_Mesh: {fileID: 4300000, guid: 5ecda9f327b057b479e307c791079017, type: 3}
+--- !u!65 &65764161904711952
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1828871017524828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9957914, y: 2.8333526, z: 3.6390264}
+  m_Center: {x: 0.090640455, y: 1.4166763, z: -1.3631834}
 --- !u!111 &111082591067919232
 Animation:
   m_ObjectHideFlags: 1
@@ -99,3 +114,32 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &114586098429406388
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1828871017524828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7522b1db93c8d0f41940109d15f3f883, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myArea: 0
+--- !u!114 &114882382633269670
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1828871017524828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0, g: 0.43921572, b: 0.75294125, a: 1}
+  outlineWidth: 5
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []

@@ -21,7 +21,10 @@ GameObject:
   - component: {fileID: 4369189648454050}
   - component: {fileID: 33462968915212102}
   - component: {fileID: 23303927907256788}
-  m_Layer: 0
+  - component: {fileID: 114812896327008874}
+  - component: {fileID: 65349231338232982}
+  - component: {fileID: 114694718534270514}
+  m_Layer: 11
   m_Name: LitiCangku
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1829793251498034}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 431.9731, y: 121.21866, z: -8.864204}
+  m_LocalPosition: {x: 428.42, y: 119.45, z: -6.61}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,3 +86,44 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1829793251498034}
   m_Mesh: {fileID: 4300002, guid: 4ac8b053032d3bc42bd192fad9dc82a8, type: 3}
+--- !u!65 &65349231338232982
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1829793251498034}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.3246, y: 2.135123, z: 2.4347937}
+  m_Center: {x: 0.00000035762787, y: 1.0675603, z: 0}
+--- !u!114 &114694718534270514
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1829793251498034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7522b1db93c8d0f41940109d15f3f883, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myArea: 0
+--- !u!114 &114812896327008874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1829793251498034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0, g: 0.43921572, b: 0.75294125, a: 1}
+  outlineWidth: 5
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []

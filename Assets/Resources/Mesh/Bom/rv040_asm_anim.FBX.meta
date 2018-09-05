@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: c833cce3bc970244b8d7185bfdbf1e86
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: rv040_asmBrep
+    100004: rv040_asmBrep1
+    100006: rv040_asmBrep10
+    100008: rv040_asmBrep11
+    100010: rv040_asmBrep12
+    100012: rv040_asmBrep13
+    100014: rv040_asmBrep14
+    100016: rv040_asmBrep15
+    100018: rv040_asmBrep16
+    100020: rv040_asmBrep17
+    100022: rv040_asmBrep18
+    100024: rv040_asmBrep19
+    100026: rv040_asmBrep2
+    100028: rv040_asmBrep20
+    100030: rv040_asmBrep21
+    100032: rv040_asmBrep22
+    100034: rv040_asmBrep3
+    100036: rv040_asmBrep4
+    100038: rv040_asmBrep5
+    100040: rv040_asmBrep6
+    100042: rv040_asmBrep7
+    100044: rv040_asmBrep8
+    100046: rv040_asmBrep9
+    400000: //RootNode
+    400002: rv040_asmBrep
+    400004: rv040_asmBrep1
+    400006: rv040_asmBrep10
+    400008: rv040_asmBrep11
+    400010: rv040_asmBrep12
+    400012: rv040_asmBrep13
+    400014: rv040_asmBrep14
+    400016: rv040_asmBrep15
+    400018: rv040_asmBrep16
+    400020: rv040_asmBrep17
+    400022: rv040_asmBrep18
+    400024: rv040_asmBrep19
+    400026: rv040_asmBrep2
+    400028: rv040_asmBrep20
+    400030: rv040_asmBrep21
+    400032: rv040_asmBrep22
+    400034: rv040_asmBrep3
+    400036: rv040_asmBrep4
+    400038: rv040_asmBrep5
+    400040: rv040_asmBrep6
+    400042: rv040_asmBrep7
+    400044: rv040_asmBrep8
+    400046: rv040_asmBrep9
+    2100000: rv040_asm2
+    2100002: rv040_asm4
+    2100004: rv040_asm5
+    2100006: rv040_asm6
+    2100008: rv040_asm1
+    2100010: rv040_asm7
+    2100012: rv040_asm3
+    2300000: rv040_asmBrep
+    2300002: rv040_asmBrep1
+    2300004: rv040_asmBrep10
+    2300006: rv040_asmBrep11
+    2300008: rv040_asmBrep12
+    2300010: rv040_asmBrep13
+    2300012: rv040_asmBrep14
+    2300014: rv040_asmBrep15
+    2300016: rv040_asmBrep16
+    2300018: rv040_asmBrep17
+    2300020: rv040_asmBrep18
+    2300022: rv040_asmBrep19
+    2300024: rv040_asmBrep2
+    2300026: rv040_asmBrep20
+    2300028: rv040_asmBrep21
+    2300030: rv040_asmBrep22
+    2300032: rv040_asmBrep3
+    2300034: rv040_asmBrep4
+    2300036: rv040_asmBrep5
+    2300038: rv040_asmBrep6
+    2300040: rv040_asmBrep7
+    2300042: rv040_asmBrep8
+    2300044: rv040_asmBrep9
+    3300000: rv040_asmBrep
+    3300002: rv040_asmBrep1
+    3300004: rv040_asmBrep10
+    3300006: rv040_asmBrep11
+    3300008: rv040_asmBrep12
+    3300010: rv040_asmBrep13
+    3300012: rv040_asmBrep14
+    3300014: rv040_asmBrep15
+    3300016: rv040_asmBrep16
+    3300018: rv040_asmBrep17
+    3300020: rv040_asmBrep18
+    3300022: rv040_asmBrep19
+    3300024: rv040_asmBrep2
+    3300026: rv040_asmBrep20
+    3300028: rv040_asmBrep21
+    3300030: rv040_asmBrep22
+    3300032: rv040_asmBrep3
+    3300034: rv040_asmBrep4
+    3300036: rv040_asmBrep5
+    3300038: rv040_asmBrep6
+    3300040: rv040_asmBrep7
+    3300042: rv040_asmBrep8
+    3300044: rv040_asmBrep9
+    4300000: rv040_asmBrep
+    4300002: rv040_asmBrep1
+    4300004: rv040_asmBrep10
+    4300006: rv040_asmBrep11
+    4300008: rv040_asmBrep12
+    4300010: rv040_asmBrep13
+    4300012: rv040_asmBrep14
+    4300014: rv040_asmBrep15
+    4300016: rv040_asmBrep16
+    4300018: rv040_asmBrep17
+    4300020: rv040_asmBrep18
+    4300022: rv040_asmBrep19
+    4300024: rv040_asmBrep2
+    4300026: rv040_asmBrep20
+    4300028: rv040_asmBrep21
+    4300030: rv040_asmBrep22
+    4300032: rv040_asmBrep3
+    4300034: rv040_asmBrep4
+    4300036: rv040_asmBrep5
+    4300038: rv040_asmBrep6
+    4300040: rv040_asmBrep7
+    4300042: rv040_asmBrep8
+    4300044: rv040_asmBrep9
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
